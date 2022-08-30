@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 350vh;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(47, 139, 109);
+   padding: 20px;
+
+}
+h3{
+    color: white;
+}
+span{
+    color: orange;
+}
+.content ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+.content :hover{
+    color: white;
+}
+button{
+    padding: 10px;
+    border:none;
+    border-radius:10px;
+    width: 100px;
+
+}
+.Sign-in{
+    background: orange;
+    color: white;
+}
+.Sign-up{
+    background: rgb(39, 116, 90);
+    color: white;
+}
+.container{
+    display: flex;
+    background: rgb(47, 139, 109);
+
+}
+.sidebar-left{
+    flex: 1;
+    margin-top: 20px;
+    
+}
+#dog{
+    border-radius: 100%;
+    width: 50%;
+    height: 80%;
+    margin-left: 70px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    flex: 1;  
+    margin-top: 20px;
+}
+.how,.see{
+    width: 30%;
+}
+.how{
+    background: orange;
+    color: white;
+}
+.sidebar-right{
+    flex: 0.5;
+    margin-top: 20px;
+}
+fieldset{
+    border-radius: 100%;
+    width: 50px;
+    height: 60px;
+    margin-left: 50%;
+    margin-top: 10px;
+    color: white;
+    
+
+}
+legend,img{
+    display: flex;
+    margin-left: 10px;
+}
+.form-choose{
+    background: rgb(47, 139, 109);
+}
+.choose{
+    background: rgb(47, 139, 109);
+    color: white;
+    text-align: center;
+}
+.Iterm{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+.Iterm1{
+    background: rgb(48, 163, 125);
+    flex: 1;
+    padding: 40px;
+    border-radius: 20px;
+}
+.Iterm2{
+    background: rgb(48, 163, 125);
+    flex: 1;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+.Iterm3{
+    background: rgb(48, 163, 125);
+    flex: 1;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+.icon{
+    display: flex;
+    margin: 10px;
+    color: white;
+    align-items: center;
+}
+#image{
+    background: rgb(229, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.Iterm p{
+    margin-top: 30px;
+    margin-left: 15px;
+    color: rgb(209, 202, 202);
+}
+.Top-iterm{
+    display: flex;
+    background: rgb(47, 139, 109);
+    gap: 10%;
+    padding: 50px;
+}
+.show{
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 5%;
+}
+.show button{
+    background: orange;
+    color: white;
+}
+.tomato,.Pineapple,.Garlic,.Pepper{
+    background: rgb(99, 182, 154);
+    border-radius: 10px;
+    flex: 0.1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5%;
+}
+.Pepper:hover{
+    background: papayawhip;
+}
+.Garlic:hover{
+    background: papayawhip;
+
+}
+.Pineapple:hover{
+    background: papayawhip;
+
+}
+.tomato:hover{
+    background: papayawhip;
+}
+#tomato{
+   margin-left: 10px;
+   margin-top: -70px;
+}
+.star{
+    display: flex;
+}
+.star p{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.banana{
+    flex:1;
+    background-image: url(../image/bbans-min-1.png);
+    background-size: cover;
+}
+.get-up{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.get-up button{
+    background: orange;
+    color: white;
+}
+#cat{
+    border-radius: 100%;
+    width: 70%;
+    height: 60%;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.ctrl{
+    background: rgb(47, 139, 109);
+    display: flex;
+}
+.form-consectetur{
+    flex: 1;
+}
+.form-family{
+    flex: 3;
+   margin-top: 100px;
+   margin-left: 20%;
+}
+.sixstar{
+    display: flex;
+    margin-top: 40px;
+}
+.sixstar p{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    color: white;
+}
+h2{
+    color: white;
+}
+.form-family p{
+    color:rgb(199, 192, 192);
+}
+.sixstar p{
+    color: white;
+}
+#arrow{
+    margin-left: 90px;
+    border-radius: 5px;
+}
+#arrow:hover{
+background: white;
+}
+#icon:hover{
+background: white;
+border-radius: 5px;
+    
+}
+.inventore{
+    background: rgb(37, 97, 97);
+    display: flex;
+    padding: 50px;
+}
+.group{
+   
+    flex: 0.5;
+    margin-left: 50px;
+    border-right: 1px solid white;
+}
+.join{
+    flex: 1;
+    display: flex;
+}
+.join button{
+    margin-top: 10px;
+}
+.apple{
+    margin-top: -20px;
+}
+.now{
+    background: orange;
+    color: white;
+
+}
+.join p{
+    margin-left: 100px;
+    align-items: center;
+    color: white; 
+}
+.info{
+    color: white;
+    background: rgb(190, 187, 181);
+
+}
+h4{
+    color: white;
+}
+.footer{
+    background: rgb(47, 139, 109);
+    display: flex;
+    padding: 30px;
+}
+.nkygroceries{
+    flex: 1;
+}
+.Support,.Account,.our-manu{
+    flex: 0.4;
+    text-align: center;
+
+}
+.bad{
+    display: flex;
+    margin-top: 90px;
+}
